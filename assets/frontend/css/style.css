@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.WCShopFilter{
+    margin: 20px 0;
+    clear: both;
+    display: block;
+}
+
+.WCShopFilter .field-wrapper{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+}
+.WCShopFilter .field-wrapper:last-child{
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+
+
+.WCShopFilter .label-wrapper{
+    width: 260px;
+    float: left;
+    vertical-align: top;
+}
+
+.WCShopFilter .input-wrapper{}
+
+
+.WCShopFilter input[type="text"], .WCShopFilter input[type="search"],.WCShopFilter input[type="text"], .WCShopFilter select{
+    width: 330px;
+}
+
+.WCShopFilter input[type="range"]{
+    width: 330px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.WCShopFilter.sidebar{}
+
+.WCShopFilter.sidebar input[type="text"], .WCShopFilter.sidebar input[type="search"],.WCShopFilter.sidebar input[type="text"], .WCShopFilter.sidebar select{
+    width: 100%;
+}
+
+.WCShopFilter.sidebar input[type="range"]{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.WCShopFilter.sidebar .label-wrapper{
+    width: 100%;
+    float: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 0;
+}
+
+
+.WCShopFilter.sidebar .field-wrapper{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.WCShopFilter.sidebar input[type="submit"]{
+    width: 100%;
+}
+
+
+.WCShopFilter.sidebar #price_range_slider{
+    background: #a4649794;
+    height: 9px;
+}
+.WCShopFilter.sidebar .price_range_display {
+    margin: 15px 0;
+}
+
+.WCShopFilter.sidebar .ui-slider-range{
+    background: #a46497;
+}
+
+.WCShopFilter.sidebar .ui-slider-handle{
+    border-radius: 20px;
+    background: #a46497;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
