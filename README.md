@@ -1,1 +1,3 @@
-# woo-shop-filter
+# WooCommerce Shop Filter
+
+
